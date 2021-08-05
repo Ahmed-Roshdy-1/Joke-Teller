@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  font-family: "Caveat", cursive, sans-serif, arial;
+
+  flex-direction: column;
+  background: url(/jokeGif.gif);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
