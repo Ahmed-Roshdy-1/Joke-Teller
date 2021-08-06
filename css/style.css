@@ -8,9 +8,8 @@ body {
   margin: 0;
   display: flex;
   font-family: "Caveat", cursive, sans-serif, arial;
-
   flex-direction: column;
-  background: url("./jokeGif.gif");
+  background: url("../Images/jokeGif.gif");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
