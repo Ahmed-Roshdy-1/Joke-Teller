@@ -10,9 +10,9 @@ body {
   font-family: "Caveat", cursive, sans-serif, arial;
 
   flex-direction: column;
-  background: url(/jokeGif.gif);
+  background: url("/jokeGif.gif");
   background-size: cover;
-  background-position: left;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -23,4 +23,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  margin-top: 20rem;
+  width: 20rem;
+  height: 3rem;
+  font-family: "Caveat", cursive, "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-weight: 3rem;
+  color: #fff;
+  background: #480ca8;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 20px 10px rgba(250, 0, 0, 0.5);
+}
+
+button:hover {
+  filter: brightness(85%);
+}
+button:active {
+  transform: scale(0.95);
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
 }
