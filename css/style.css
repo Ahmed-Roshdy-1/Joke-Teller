@@ -12,6 +12,18 @@ body {
   background-image: url("../Images/img1.jfif");
   background-position: center center;
   background-repeat: no-repeat;
+  align-items: center;
+}
+h1 {
+  margin-top: 2rem;
+  color: #fff;
+  font-family: "Caveat", cursive, "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+}
+
+span {
+  color: #ef233c;
+  text-shadow: 0 0px 15px #000;
 }
 
 .container {
@@ -26,7 +38,7 @@ body {
 button {
   cursor: pointer;
   outline: none;
-  margin-top: 20rem;
+  margin-top: 10rem;
   width: 20rem;
   height: 3rem;
   font-family: "Caveat", cursive, "Courier New", Courier, monospace;
@@ -58,4 +70,5 @@ p {
   font-family: inherit;
   background: rgba(10, 10, 10, 0.9);
   align-self: center;
+  word-wrap: break-word;
 }
