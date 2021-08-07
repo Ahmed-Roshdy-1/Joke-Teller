@@ -1,5 +1,6 @@
 const button = document.getElementById("button");
 const audioElement = document.getElementById("audio");
+const jokeText = document.getElementById("joke-text");
 
 // Disable / Enable Button
 function toggleButton() {
@@ -36,6 +37,8 @@ async function getJokes() {
     }
     // Text-to-Speech
     tellme(joke);
+    jokeText.innerText = joke;
+    console.log(joke);
     // Disable Button
     toggleButton();
   } catch (error) {

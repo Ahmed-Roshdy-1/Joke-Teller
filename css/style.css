@@ -7,10 +7,9 @@ body {
   width: 100vw;
   margin: 0;
   display: flex;
-  font-family: "Caveat", cursive, sans-serif, arial;
+  font-family: "Playfair Display", serif "Caveat", cursive;
   flex-direction: column;
-  background: url("../Images/jokeGif.gif");
-  background-size: cover;
+  background-image: url("../Images/img1.jfif");
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -34,10 +33,10 @@ button {
   font-size: 2rem;
   font-weight: 3rem;
   color: #fff;
-  background: #480ca8;
+  background: #ef233c;
   border: none;
   border-radius: 25px;
-  box-shadow: 2px 2px 20px 10px rgba(250, 0, 0, 0.5);
+  box-shadow: 2px 2px 20px 10px #480ca8;
 }
 
 button:hover {
@@ -50,4 +49,13 @@ button:active {
 button:disabled {
   cursor: default;
   filter: brightness(30%);
+}
+
+p {
+  width: 70%;
+  font-size: 3rem;
+  color: #e9ecef;
+  font-family: inherit;
+  background: rgba(10, 10, 10, 0.9);
+  align-self: center;
 }
